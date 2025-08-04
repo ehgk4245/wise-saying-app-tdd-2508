@@ -25,7 +25,7 @@ public class TestUtilTest {
 
         // then
         Assertions.assertThat(cmd).isEqualTo("등록");
-        Assertions.assertThat(content).isEqualTo("나의 죽음을 적에게 알리지 말라!");
+        Assertions.assertThat(content).isEqualTo("나의 죽음을 적들에게 알리지 말라!");
         Assertions.assertThat(author).isEqualTo("이순신");
     }
 }
